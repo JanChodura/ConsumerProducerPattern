@@ -1,0 +1,3 @@
+person.add = INSERT INTO `Person`(`guid`, `name`, `age`) VALUES (person.guid, person.name, person.age);
+person.printAll = SELECT id, guid, name, age From `Person`;
+person.deleteAll = DELETE FROM `Person`;
